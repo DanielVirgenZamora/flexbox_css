@@ -24,7 +24,7 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 
 /* Acá va tu código */
 .contenedor_objetivo__ejercicio_tres{
-    position: relative;
+    position: absolute;
     top: 99px;
     left: 199px;
 }
