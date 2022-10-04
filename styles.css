@@ -1,0 +1,108 @@
+/*
+Desafío de posicionamiento con CSS. Todo el trabajo debe hacerse en este archivo, por lo que si estás tocando cualquier otro
+archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
+*/
+
+/* Ejercicio 1: Centrar el texto en un span */
+
+/* Arrancaremos este ejercicio por ti */
+.contenedor__span_uno {
+    display: block;
+    text-align: center;
+}
+
+
+/* Ejercicio 2 */
+
+/* Acá va tu código */
+.titulo{
+    display:  none;
+}
+
+
+/* Ejercicio 3 */
+
+/* Acá va tu código */
+.contenedor_objetivo__ejercicio_tres{
+    position: relative;
+    top: 99px;
+    left: 199px;
+}
+
+
+/* Ejercicio 4 */
+
+/* Acá va tu código */
+#ejercicioCuatro{
+    position: absolute;
+    top: 0;
+}
+
+
+/* Ejercicio 5 */
+
+/* Acá va tu código */
+.contenedor__ejercicio_cinco{
+    display: flex;
+    justify-content: space-around;
+    justify-content: baseline;  
+    
+
+}
+
+
+
+
+/* Ejercicio 6 */
+.contenedor__ejercicio_cinco{
+    flex-direction: row-reverse;
+    position: relative;
+    right: 100px;
+}
+/* Acá va tu código */
+body{
+    background-color: rgb(214, 250, 255);
+}
+.contenedor__ejercicio_siete{
+    flex-direction: row-reverse;
+    height: 465px;  
+    background-image: url(./viejo-fondo-textura-madera-vintage_55716-1138.webp);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.elementoUno{
+    position: relative;
+    top: 170px;
+    right: 223px;
+    background-color: rgb(108, 255, 108);
+    height: 25px;
+}
+.elementoDos{
+    position: relative;
+    right: 72px;
+    top: 91px;
+    background-color: rgb(192, 147, 88);
+    border: 5px solid black;
+    border-top: 5px dotted rgb(172, 120, 10);
+    height: 70px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom: 3px solid black;
+}
+.elementoCuatro{
+    position: relative;
+    top: 12.5em;
+    left: 230px;
+    background-color: rgb(92, 51, 5);
+    height: 40px;
+}
+.elementoTres{
+    position: relative;
+    top: 15em;
+    left: 80px;
+    background-color: rgb(192, 147, 88);
+    border-right: 5px solid black;
+    border-bottom:  5px solid black;
+    border-left:  5px solid black;
+    height: 55px;
+}
